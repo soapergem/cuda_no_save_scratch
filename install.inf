@@ -1,0 +1,11 @@
+[info]
+title=No Save Scratch
+desc=Disables the Save dialog when quitting if the open file is new and blank
+type=cudatext-plugin
+subdir=cuda_no_save_scratch
+homepage=https://github.com/soapergem/cuda_no_save_scratch
+api=1.0.302
+
+[item1]
+section=events
+events=on_save_pre
